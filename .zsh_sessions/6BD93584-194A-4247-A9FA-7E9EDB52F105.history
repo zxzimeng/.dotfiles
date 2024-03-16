@@ -1,0 +1,7 @@
+vi
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh\
+
+open .zshrc
+z
+cd
+mkdir .dotfiles
