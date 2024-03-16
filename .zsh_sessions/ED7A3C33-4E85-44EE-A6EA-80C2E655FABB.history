@@ -1,0 +1,29 @@
+z do
+stow --adopt
+stow --adopt .
+z do
+touch .stow-global-ignore.txt 
+open .stow-global-ignore.txt
+git init
+stow .
+mv .stow-local-ignore.txt .stow-local-ignore
+stow .
+z
+git
+z ..
+z Applications
+open *
+brew uninstall prusaslicer
+z do
+stow .
+git add .
+git commit -m "initial files"
+clear
+chflags nohidden /Users/zimengx/.dotfiles 
+z
+chflags nohidden /Users/zimengx/.dotfiles 
+chflags nohidden /Users/zimengx/dotfiles 
+chflags nohidden /Users/zimengx/.dotfiles 
+z dot
+cd dotfiles
+stow .
