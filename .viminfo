@@ -11,6 +11,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:qa!
+|2,0,1710623885,,"qa!"
 :wq
 |2,0,1710600989,,"wq"
 
@@ -25,7 +27,22 @@
 # Registers:
 
 # File marks:
+'0  1  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,48,1,0,1710623885,"~/.dotfiles/.git/COMMIT_EDITMSG"
+'1  1  14  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,49,1,14,1710623835,"~/.dotfiles/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  1  0  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,0,1710623885,"~/.dotfiles/.git/COMMIT_EDITMSG"
+-'  1  14  ~/.dotfiles/.git/COMMIT_EDITMSG
+|4,39,1,14,1710623835,"~/.dotfiles/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles/.git/COMMIT_EDITMSG
+	*	1710623881	0
+	"	1	0
+	^	1	15
+	.	2	0
+	+	2	0
